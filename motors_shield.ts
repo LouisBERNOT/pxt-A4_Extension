@@ -1,8 +1,8 @@
 /**
- * Blocks for driving the Kitronik Motor Driver Board
+ * Commentaire de la librairie en générale
  */
-//% weight=100 color=#00A654 icon="\uf21c" block="Motor Driver"
-namespace kitronik_motor_driver {
+//% weight=999 color=#004696 icon="\uf544" block="Nom extension advanced=false"
+namespace A4_technologie_motor_driver {
 	/************************************************************************************************************************************************
 	* micro:bit motor driver blocks 
 	************************************************************************************************************************************************/
