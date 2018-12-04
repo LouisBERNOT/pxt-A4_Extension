@@ -1,0 +1,17 @@
+{
+    "name": "A4-Technologie-Extension",
+    "version": "0.0.1",
+    "description": "BLAihdfjklzafzehfjk",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "README.md",
+        "motors.ts"
+    ],
+    "testFiles": [
+        "tests.ts"
+    ],
+    "public": true
+}
