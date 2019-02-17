@@ -8,10 +8,16 @@
     },
     "files": [
         "README.md",
-        "motors_shield.ts"
+        "motors_shield.ts",
+        "test2.ts",
+        "Test3.ts"
     ],
     "testFiles": [
         "tests.ts"
     ],
-    "public": true
+    "public": true,
+    "installedVersion": "workspace:5fa45f4a-0e11-4046-dbf0-db0632cd72f9",
+    "yotta": {
+        "config": {}
+    }
 }
