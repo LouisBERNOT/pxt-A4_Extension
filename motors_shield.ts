@@ -1,7 +1,7 @@
 /**
  * Librairie A4 technologie pour robot <nom du robot>.
  */
-//% weight=999 color=#004696 icon="\uf121" block="A4 Technologie" advanced=false
+//% weight=999 color=#004696 icon="\uf121" block="A4 Technologie v2" advanced=false
 namespace A4_Robot_Driver {
 	/************************************************************************************************************************************************
 	* micro:bit motor driver blocks 
@@ -54,7 +54,6 @@ namespace A4_Robot_Driver {
      * @param dir sens de déplacement du robot
      * @param speed vitesse en pourcentage du moteur
      */
-
     //% blockId=A4_Robot_Driver_Robot_Move
     //% block="<Nom du robot> %dir| vitesse %speed"
     //% speed.min=0 speed.max=100
@@ -136,8 +135,9 @@ namespace A4_Robot_Driver {
      * @param dir sens de rotation du moteur comparé au sens du robot
      */
     //% blockId=A4_Robot_Driver_motor_dir
-    //% block="%motor| %dir"
-    //% parts="A4_Robot_Driver" advanced=true
+    //% block="%motor| %dir aaaa"
+    //% parts="A4_Robot_Driver" advanced=false
+    //% motor.defl=MotorFull
     export function motorDir(motor: Motors, dir: MotorDirection): void {
         setDir(motor, dir);
         setMotors();
