@@ -135,8 +135,8 @@ namespace A4_Robot_Driver {
      * @param dir sens de rotation du moteur comparé au sens du robot
      */
     //% blockId=A4_Robot_Driver_motor_dir
-    //% block="%motor| %dir aaaa"
-    //% parts="A4_Robot_Driver" advanced=false
+    //% block="%motor| %dir"
+    //% parts="A4_Robot_Driver" advanced=true
     //% motor.defl=MotorFull
     export function motorDir(motor: Motors, dir: MotorDirection): void {
         setDir(motor, dir);
